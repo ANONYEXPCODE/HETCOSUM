@@ -57,7 +57,7 @@ python s3_eval_cleaned_test_set.py"
 **Note that:** 
 - All the parameters are set in `src_code/python(java,python_GypSum)/config.py`.
 - If a model has been trained, you can set the parameter "train_mode" in `config.py` to "False". Then you can predict the testing data directly by using the model that has been saved in `data/python/model/`.
-- We have provided in [Google Drive](https://drive.google.com/file/d/1eXCJEkCWuxi8xqMa_XAjg6OH4DNknT35/view?usp=share_link) all the files about the trained models as well as the log files of traing processes (in `data/python(java,python_GypSum)/log/`). The user can download them for reference and model evaluation without running `s1_preprocessor.py` and model training. Still, don't forget to set the parameter "train_mode" in `config.py` to "False" for direct prediction and evaluation with these files.
+- We have provided in [Google Drive](https://drive.google.com/file/d/1eXCJEkCWuxi8xqMa_XAjg6OH4DNknT35/view?usp=share_link) all the files including the trained models as well as the log files of traing processes (in `data/python(java,python_GypSum)/log/`). The user can download them for reference and model evaluation without running `s1_preprocessor.py` and model training. Still, don't forget to set the parameter "train_mode" in `config.py` to "False" for direct prediction and evaluation with these files.
 
 
 # More Implementation Details.

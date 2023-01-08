@@ -1,5 +1,5 @@
 # HetCoSum
-This work proposes **HetCoSum** that unifies the plain code sequence and syntax structure into a **Heterogeneous Code Graph (HCG)** for code summarization. To be specific, the HCG is built with eight types of directed edges between graph nodes. An edge from a node may lead to its parent/child, right/left sibling, next/previous DFG node, or next/previous code token, which can well preserve the structural uniqueness of HCG. Moreover, we put forward a **Heterogeneous Code Graph Neural Network (HCGNN)** to learn the HCG representation, which is then fed into a Transformer decoder with copying mechanism to support high-quality summary generation. Extensive experiments on two major Java and Python datasets demonstrate the superiority of our approach over sixteen state-of-the-art baselines.
+This is the source code of HetSum model.
 
 # Runtime Environment
 - 4 NVIDIA 2080 Ti GPUs 
